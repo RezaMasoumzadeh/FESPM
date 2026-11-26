@@ -1,0 +1,6 @@
+
+CC = gcc
+CFLAGS = -c  -g -ggdb   -fopenmp -mcmodel=large
+INCLUDE =
+OPTIONS =   -g -ggdb  -fopenmp -mcmodel=large  -Ddgesv=dgesv_
+LIBS = -lopenblas -lm -lpthread
